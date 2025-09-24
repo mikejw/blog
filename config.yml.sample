@@ -21,7 +21,8 @@ plugins:
     version: "1.0"
     config: '{ "testing": 0 }'
   - 
-    name: Smarty
+    name: SmartySSL
+    config: '{ "force": true }'
     version: "1.0"
     class_path: Smarty/libs/Smarty.class.php
     class_name: \Smarty
