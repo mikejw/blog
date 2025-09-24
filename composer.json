@@ -1,0 +1,7 @@
+{
+    "require": {
+            "mikejw/elib-blog": "^4"
+        
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,8 @@
+blog_description: Some words from me
+blog_social_links: '{ "X": "https://twitter.com/mikejw" }'
+blog_title: An Empathy Blog
+def_blog_category: 0
+def_blog_per_page: 3
+fetch_blog_images: false
+some_key: some_value
+truncate_blog_items: true
