@@ -1,9 +1,8 @@
 <?php
 
 namespace Empathy\MVC\Controller;
-use Empathy\ELib\EController;
 
-class about extends EController
+class about extends \Empathy\ELib\Blog\BlogFrontControllerNew
 {
     public function default_event()
     {
