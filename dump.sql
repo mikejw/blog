@@ -1,5 +1,5 @@
 /*M!999999\- enable the sandbox mode */ 
--- MariaDB dump 10.19  Distrib 10.5.29-MariaDB, for debian-linux-gnu (aarch64)
+-- MariaDB dump 10.19  Distrib 10.5.28-MariaDB, for debian-linux-gnu (x86_64)
 --
 -- Host: db    Database: project
 -- ------------------------------------------------------
@@ -40,7 +40,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `blog_category` WRITE;
 /*!40000 ALTER TABLE `blog_category` DISABLE KEYS */;
-INSERT INTO `blog_category` (`id`, `blog_category_id`, `label`, `meta`, `position`) VALUES (1,NULL,'Music','{ \"fa\": \"music\"}',0),(2,NULL,'Photography','{ \"fa\": \"camera\"}',0),(3,NULL,'BMX','{ \"fa\": \"bicycle\"}',0),(4,NULL,'Other','{ \"fa\": \"plug\"}',0),(5,NULL,'Experiments','{ \"fa\": \"flask\"}',0),(6,NULL,'Releases','{ \"fa\": \"gift\"}',0),(7,NULL,'Technology',NULL,0);
+INSERT INTO `blog_category` (`id`, `blog_category_id`, `label`, `meta`, `position`) VALUES (1,NULL,'Music','{ \"fa\": \"music\"}',0),(2,NULL,'Photography','{ \"fa\": \"camera\"}',0),(3,NULL,'BMX','{ \"fa\": \"bicycle\"}',0),(4,NULL,'Other','{ \"fa\": \"plug\"}',0),(5,NULL,'Experiments','{ \"fa\": \"flask\"}',0),(6,NULL,'Releases','{ \"fa\": \"gift\"}',0),(7,NULL,'Technology','{ \"fa\": \"gear\" }',0);
 /*!40000 ALTER TABLE `blog_category` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -108,7 +108,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `setting` WRITE;
 /*!40000 ALTER TABLE `setting` DISABLE KEYS */;
-INSERT INTO `setting` (`id`, `name`, `value`, `vendor_id`) VALUES (1,'title','blog.mikejw.co.uk',NULL),(2,'keywords','michael, whiting, blog, fullstack, frontend, developer, devops, empathy',NULL),(3,'description','Blog belonging to Michael Whiting.  Web developer and open source technologist/consultant.',NULL),(4,'blogtitle','blog.mikejw.co.uk',NULL),(5,'blogsubtitle','Mike\'s blog',NULL),(6,'link1name','linktr.ee/mikejw',NULL),(7,'link1url','https://linktr.ee/mikejw',NULL),(8,'link2name','',NULL),(9,'link2url','',NULL),(10,'link3name','',NULL),(11,'link3url','',NULL),(12,'disqusUsername','',NULL);
+INSERT INTO `setting` (`id`, `name`, `value`, `vendor_id`) VALUES (1,'title','blog.mikejw.co.uk',NULL),(2,'keywords','michael, whiting, blog, fullstack, frontend, developer, devops, empathy',NULL),(3,'description','Blog belonging to Michael Whiting.  Web developer and open source technologist/consultant.',NULL),(4,'blogtitle','blog.mikejw.co.uk',NULL),(5,'blogsubtitle','Mike\'s Blog',NULL),(6,'link1name','linktr.ee/mikejw',NULL),(7,'link1url','https://linktr.ee/mikejw',NULL),(8,'link2name','',NULL),(9,'link2url','',NULL),(10,'link3name','',NULL),(11,'link3url','',NULL),(12,'disqusUsername','',NULL);
 /*!40000 ALTER TABLE `setting` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -149,4 +149,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-09-24  7:13:37
+-- Dump completed on 2025-09-24 19:35:10

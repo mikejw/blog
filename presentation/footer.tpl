@@ -22,16 +22,18 @@
             <div class="terms">
                 <span class="mr-4">Copyright © {$smarty.now|date_format:'%Y'} Michael Whiting.</span>
                 <span>
-                        <a target="_blank" href="https://twitter.com/mikejw" class="text-secondary">
-                            Twitter&nbsp;&nbsp;<i class="fa-brands fa-twitter"></i>
-                        </a>
+                    <span>
+                            <a target="_blank" href="https://twitter.com/mikejw" class="text-secondary">
+                                Twitter&nbsp;&nbsp;<i class="fa-brands fa-twitter"></i>
+                            </a>
                     </span>
-                <div class="separator-h"></div>
-                <span>
-                        <a target="_blank" href="https://instagram.com/intimacywithmedium" class="text-secondary">
-                            Instagram&nbsp;&nbsp;<i class="fa-brands fa-instagram"></i>
-                        </a>
+                    <div class="separator-h"></div>
+                    <span>
+                            <a target="_blank" href="https://instagram.com/intimacywithmedium" class="text-secondary">
+                                Instagram&nbsp;&nbsp;<i class="fa-brands fa-instagram"></i>
+                            </a>
                     </span>
+                </span>
             </div>
         </div>
     </div>

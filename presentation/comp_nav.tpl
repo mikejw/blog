@@ -17,7 +17,7 @@
                             {if $vendorRead neq false}
                                 <a class="dropdown-item {if $module eq 'store'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/store">Storefront</a>
                             {/if}
-                            <a class="dropdown-item {if $module eq 'about'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/about">About OV</a>
+                            <a class="dropdown-item {if $module eq 'about'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/about">About {$BLOG_TITLE}</a>
                             {if isset($user_id) and $user_id > 0}
                                 <a class="dropdown-item{if $module eq 'settings'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/settings">Settings</a>
                             {/if}

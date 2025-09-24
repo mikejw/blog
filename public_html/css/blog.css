@@ -1,7 +1,36 @@
 
-#blog h1 {
-  font-size: 2.2rem;
+body {
+  background-color: #fafafa;
 }
+
+#blog .terms {
+  display: block;
+}
+
+
+@media (max-width: 991px) {
+  .content {
+    padding-top: 0;
+  }
+
+  #blog h1 {
+    font-size: 2.2rem;
+  }
+  #blog .bottom h1 {
+    font-size: 2rem;
+  }
+
+  #blog .terms {
+    display: flex;
+    flex-direction: column;
+  }
+  #blog .terms span:nth-child(2) {
+    margin-top: 0.9rem;
+  }
+}
+
+
+
 
 #blog h2 {
     margin-top: 3rem;
