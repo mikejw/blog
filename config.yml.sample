@@ -1,0 +1,37 @@
+---
+name: blog-speed
+doc_root: /var/www/project
+web_root: cms.dev.org
+public_dir: ""
+boot_options:
+  handle_errors: false
+  default_module: blog
+  use_elib: true
+  environment: prod
+  debug_mode: false
+  dynamic_module: false
+  dynamic_module_default_uri: false
+db_server: db
+db_user: root
+db_pass: example
+db_name: project
+plugins:
+  - 
+    name: ELibs
+    version: "1.0"
+    config: '{ "testing": 0 }'
+  - 
+    name: Smarty
+    version: "1.0"
+    class_path: Smarty/libs/Smarty.class.php
+    class_name: \Smarty
+    loader: ""
+  - 
+    name: EDefault
+    version: "1.0"
+  - 
+    name: Redbean
+    version: "1.0"
+  - 
+    name: Empathy\ELib\MVC\Plugin\SiteInfo
+    version: "1.0"
