@@ -38,6 +38,7 @@
         </div>
     </div>
 </div>
+</div>
 {if $disqusUsername neq ''}
     <script id="dsq-count-scr" src="//{$disqusUsername}.disqus.com/count.js" async></script>
 {/if}

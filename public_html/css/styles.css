@@ -1,19 +1,37 @@
 
+:root { --safe-top: env(safe-area-inset-top, 0px); }
+
+body, html {
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+html {
+    background-color: #343a40;
+}
+
 body, html {
     min-height: 100vh;
     margin: 0;
 }
 
-body {
+.body-inner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #fff;
-    overflow-y: scroll;
+    background-color: #fafafa;
 }
 
 .top {
+    min-height: 0;
+}
 
+/* support for Safari < 15.4 */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-left: calc(15px + env(safe-area-inset-left));
+  padding-right: calc(15px + env(safe-area-inset-right));
 }
 
 .bottom {
@@ -83,9 +101,10 @@ a:hover {
 
 .nav-wrapper {
     top: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+    position: sticky;
+    top: var(--safe-top);
+    padding-top: var(--safe-top);
+    z-index: 1030;   
 }
 
 .nav-outer {
@@ -108,10 +127,6 @@ a:hover {
 .nav-link {
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-}
-
-.content-outer {
-    margin-top: 94px;
 }
 
 .content {
