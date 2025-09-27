@@ -1,7 +1,7 @@
 
 :root { --safe-top: env(safe-area-inset-top, 0px); }
 
-body, html {
+body, html, .body-inner {
     min-height: 100vh;
     min-height: 100dvh;
 }
@@ -95,9 +95,8 @@ a:hover {
 }
 
 .nav-wrapper {
-    top: 0;
-    position: sticky;
     top: var(--safe-top);
+    position: sticky;
     padding-top: var(--safe-top);
     z-index: 1030;   
 }
