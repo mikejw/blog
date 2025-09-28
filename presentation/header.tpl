@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="theme-color" content="#343a40" />
+    <meta name="theme-color" content="#fafafa" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     {include file="elib://comp_title.tpl"}
     {include file="elib://comp_description.tpl"}
