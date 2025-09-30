@@ -8,7 +8,7 @@
 </p>
 
 <p>
-  Generate this codebase with one command:
+  Generate and run this codebase locally with one command:
 </p>
 
 <pre>
