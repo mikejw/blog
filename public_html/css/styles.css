@@ -19,6 +19,7 @@ html {
 
 .top {
     min-height: 0;
+    flex: 1 1 auto;
 }
 
 /* support for Safari < 15.4 */
@@ -34,11 +35,14 @@ html {
     background-color: var(--gray-dark);
     color: var(--light);
     font-size: 0.9rem;
+    padding-bottom: 0;
+    flex: 0 0 auto;
     padding-bottom: 2rem;
 }
 
 .bottom .logo {
-    height: 150px;
+    height: 75px;
+    margin-top: 20px;
 }
 
 .bottom .logo h1 {
@@ -50,6 +54,7 @@ html {
     font-weight: normal;
     font-size: 2rem;
     letter-spacing: -1px;
+    margin: 0;
 }
 
 .bottom .logo h1 a {
@@ -76,8 +81,8 @@ html {
     max-width: 1400px;
     opacity: .08;
     background-color: #fff;
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .separator-h {

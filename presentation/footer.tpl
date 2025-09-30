@@ -5,35 +5,36 @@
 </div><!-- /.container -->
 </div>
 <div class="bottom">
-    <div class="container-fluid container-md">
+
+    <div class="container-fluid container-md"> 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col">
                 <div class="logo d-flex align-items-center">
                     <a href="http://{$WEB_ROOT}{$PUBLC_DIR}">
                         <img class="logo-img" src="http://{$WEB_ROOT}{$PUBLCI_DIR}/img/skull_clean_light.png" alt="Skull clean" />
                     </a>
                     <h1><a href="http://{$WEB_ROOT}{$PUBLC_DIR}">blog.mikejw.co.uk</a></h1>
                 </div>
-                <p class="about"></p>
-            </div>
-        </div>
-        <div class="separator-w"></div>
-        <div class="d-flex align-items-center justify-content-between align-items-center">
-            <div class="terms">
-                <span class="mr-4">Copyright © {$smarty.now|date_format:'%Y'} Michael Whiting.</span>
-                <span>
-                    <span>
-                            <a target="_blank" href="https://twitter.com/mikejw" class="text-secondary">
-                                Twitter&nbsp;&nbsp;<i class="fa-brands fa-twitter"></i>
-                            </a>
-                    </span>
-                    <div class="separator-h"></div>
-                    <span>
-                            <a target="_blank" href="https://instagram.com/intimacywithmedium" class="text-secondary">
-                                Instagram&nbsp;&nbsp;<i class="fa-brands fa-instagram"></i>
-                            </a>
-                    </span>
-                </span>
+
+                <div class="separator-w"></div>
+                <div class="d-flex align-items-center justify-content-between align-items-center">
+                    <div class="terms">
+                        <span class="mr-4">Copyright © {$smarty.now|date_format:'%Y'} Michael Whiting.</span>
+                        <span>
+                            <span>
+                                    <a target="_blank" href="https://twitter.com/mikejw" class="text-secondary">
+                                        Twitter&nbsp;&nbsp;<i class="fa-brands fa-twitter"></i>
+                                    </a>
+                            </span>
+                            <div class="separator-h"></div>
+                            <span>
+                                    <a target="_blank" href="https://instagram.com/intimacywithmedium" class="text-secondary">
+                                        Instagram&nbsp;&nbsp;<i class="fa-brands fa-instagram"></i>
+                                    </a>
+                            </span>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

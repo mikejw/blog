@@ -20,8 +20,10 @@
 
 <body id="{$module}" class="hasnav">
 
-  {include file="comp_nav.tpl"}
+  
     <div class="body-inner">
+
+      {include file="comp_nav.tpl"}
 
       <div class="top">
 	<div class="container content-outer">
