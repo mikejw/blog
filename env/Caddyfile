@@ -50,7 +50,7 @@
 
   # Cache static assets aggressively
   @assets path_regexp assets \.(?:css|js|png|jpg|jpeg|gif|svg|webp|ico|woff2?|ttf|eot)$
-  header @assets Cache-Control "public_html, max-age=31536000, immutable"
+  header @assets Cache-Control "public, max-age=31536000, immutable"
 
   # Basic security headers
   header {
