@@ -2,7 +2,7 @@
 <div class="nav-wrapper">
     <div class="nav-outer">
         <div class="nav-container container-fluid container-md">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="http://{$WEB_ROOT}{$PUBLIC_DIR}">
                     <img src="http://{$WEB_ROOT}{$PUBLIC_DIR}/img/small_skull.png" width="30" alt="Online Vibes">
                 </a>

@@ -4,7 +4,7 @@
 </section>
 </div><!-- /.container -->
 </div>
-<div class="bottom">
+<footer>
 
     <div class="container-fluid container-md"> 
         <div class="row">
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-</div>
+</footer>
 </div>
 {if $disqusUsername neq ''}
     <script id="dsq-count-scr" src="//{$disqusUsername}.disqus.com/count.js" async></script>

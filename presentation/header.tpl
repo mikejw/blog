@@ -12,8 +12,6 @@
     <link rel="icon" href="/favicon.ico">
     <link href='https://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
     <link href="http://{$WEB_ROOT}{$PUBLIC_DIR}/vendor/css/style.min.css" rel="stylesheet">
-    <link href="http://{$WEB_ROOT}{$PUBLIC_DIR}/css/styles.css?rand={$rand}" rel="stylesheet">
-    <link href="http://{$WEB_ROOT}{$PUBLIC_DIR}/css/blog.css?rand={$rand}" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
     {include file="comp_social_markup.tpl"}
 </head>
