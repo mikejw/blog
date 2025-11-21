@@ -175,22 +175,55 @@ fieldset input[type="radio"] {
 }
 /* BEGIN ANSIBLE MANAGED BLOCK blog.scss.j2 */
 
+:root { --safe-top: env(safe-area-inset-top, 0px); }
 
-body, html {
-  min-height: 100vh;
-  margin: 0;
+
+body .terms {
+  display: block;
 }
 
-body {
+@media (max-width: 991px) {
+  .content {
+    padding-top: 0;
+  }
+
+  body h1 {
+    font-size: 2.2rem;
+  }
+  body .bottom h1 {
+    font-size: 2rem;
+  }
+
+  body .terms {
+    display: flex;
+    flex-direction: column;
+  }
+  body .terms span:nth-child(2) {
+    margin-top: 0.9rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+body, html, .body-inner {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+body, .body-inner {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: theme-color("light");
-  overflow-y: scroll;
 }
 
 .top {
-
+  min-height: 0;
+  flex: 1 1 auto;
 }
 
 footer {
@@ -199,10 +232,12 @@ footer {
   color: theme-color("light");
   font-size: 0.9rem;
   padding-bottom: 2rem;
+  flex: 0 0 auto;
 }
 
 footer .logo {
-  height: 150px;
+  height: 75px;
+  margin-top: 20px;
 }
 
 footer .logo h1 {
@@ -214,6 +249,7 @@ footer .logo h1 {
   font-weight: normal;
   font-size: 2rem;
   letter-spacing: -1px;
+  margin: 0;
 }
 
 footer .logo h1 a {
@@ -233,15 +269,14 @@ footer .about {
   width: 70%;
 }
 
-
 footer .separator-w {
   width: 100%;
   height: 1px;
   max-width: 1400px;
   opacity: .08;
   background-color: $white;
-  margin-top: 10px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .separator-h {
@@ -259,10 +294,10 @@ a:hover {
 }
 
 .nav-wrapper {
-  top: 0;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
+  top: var(--safe-top);
+  position: sticky;
+  padding-top: var(--safe-top);
+  z-index: 1030;
 }
 
 .nav-outer {
@@ -294,59 +329,13 @@ a:hover {
   color: $white !important;
 }
 
-.content-outer {
-  margin-top: 94px;
-}
-
 .content {
   padding-top: 1.2rem;
 }
 
-header {
-  padding-top: 1.2rem;
-}
-
-
-header nav h2 a {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-
-.card {
-  padding: 0.3%;
-  border: 0;
-  border-radius: 0;
-}
-
-.card .card-img-top {
-  border-radius: 0;
-  height: 300px;
-  object-fit: cover;
-}
-
-.card .card-body {
-  background-color: theme-color("secondary");
-}
-
-.card h5 {
-  font-family: "Archivo Narrow", sans-serif;
-  font-size: 1.5rem;
-}
-
-.card a h5, .card a p {
-  color: theme-color("dark");
-}
-
-#home .card .card-img-top {
-  height: 600px;
-}
-
-
 .pagination {
   height: 64px !important;
   margin: 0;
-
 }
 
 .pagination .page-item a {
@@ -361,12 +350,6 @@ header nav h2 a {
   font-size: 1.2rem;
 }
 
-#cart {
-  overflow-x: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .rss a i {
   display: inline-block;
   background-color: theme-color("accent1");
@@ -376,16 +359,6 @@ header nav h2 a {
   color: $white;
   margin-bottom: 2rem;
 }
-
-
-
-#home .starter-template,
-#store .starter-template,
-#user .starter-template {
-  padding: 15px 15px;
-  text-align: left;
-}
-
 
 h1 {
   font-family: "Archivo Narrow", sans-serif;
@@ -409,25 +382,6 @@ h1 a:hover {
   text-decoration: none;
 }
 
-form .error {
-  display: none;
-}
-
-
-body nav h2 {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 2em;
-  margin-top: 1.2rem;
-}
-
-@media (max-width: 575.98px) {
-  h1 {
-    font-size: 3rem;
-  }
-}
-
-
 
 #blog h2 {
   margin-top: 3rem;
@@ -440,10 +394,6 @@ ol, ul {
 .blog-header .blog-title a {
   color: theme-color("dark");
   text-decoration: none;
-}
-
-#logo {
-  float: right;
 }
 
 .tag {
@@ -464,80 +414,6 @@ ol, ul {
 }
 
 
-
-/*
- * Masthead for nav
- */
-
-.blog-masthead {
-  background-color: theme-color("accent1");
-  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-}
-
-/* Nav links */
-.blog-nav-item {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;
-  color: $light;
-}
-.blog-nav-item:hover,
-.blog-nav-item:focus {
-  color: $white;
-  text-decoration: none;
-}
-
-/* Active state gets a caret at the bottom */
-.blog-nav .active {
-  color: $white;
-}
-.blog-nav .active:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -5px;
-  vertical-align: middle;
-  content: " ";
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid;
-  border-left: 5px solid transparent;
-}
-
-
-/*
- * Blog name and description
- */
-
-.blog-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.blog-title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 60px;
-  font-weight: normal;
-}
-.blog-description {
-  font-size: 20px;
-  color: $light;
-}
-
-
-/*
- * Main column and sidebar layout
- */
-
-.blog-main {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-/* Sidebar modules for boxing content */
 .sidebar-module-inset {
   padding: 15px;
   background-color: $light;
@@ -570,7 +446,6 @@ ol, ul {
   color: theme-color("accent1");
 }
 
-
 .blog-post .badge a {
   text-decoration: none;
 }
@@ -580,11 +455,6 @@ ol, ul {
   margin-bottom: 3rem;
 }
 
-
-/*
- * Blog posts
- */
-
 .blog-post {
   margin-bottom: 60px;
 }
@@ -592,7 +462,7 @@ ol, ul {
   color: theme-color("dark");
 }
 
-.blog-post .content a {
+.blog-post .content a, .sidebar-module-inset p a {
   font-weight: bold;
 }
 

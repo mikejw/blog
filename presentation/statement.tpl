@@ -2,15 +2,9 @@
 <p>
   Fullstack developer.
 </p>
-
-<p>
-<br />
-</p>
-
 <p>
   Generate and run this codebase locally with one command:
 </p>
-
 <pre>
 <code>
 bdcli qs -cb=mycoolblog -tpl=elib-blog
