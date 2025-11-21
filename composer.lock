@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gabordemooij/redbean.git",
-                "reference": "fc08c2f9bc5a4f5074721b0d9039881be244f842"
+                "reference": "501dcfb3a264325f7000d30d80d9d8364acef1d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/fc08c2f9bc5a4f5074721b0d9039881be244f842",
-                "reference": "fc08c2f9bc5a4f5074721b0d9039881be244f842",
+                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/501dcfb3a264325f7000d30d80d9d8364acef1d1",
+                "reference": "501dcfb3a264325f7000d30d80d9d8364acef1d1",
                 "shasum": ""
             },
             "require": {
@@ -48,9 +48,9 @@
             ],
             "support": {
                 "issues": "https://github.com/gabordemooij/redbean/issues",
-                "source": "https://github.com/gabordemooij/redbean/tree/v5.7.5"
+                "source": "https://github.com/gabordemooij/redbean/tree/master"
             },
-            "time": "2025-05-01T17:41:56+00:00"
+            "time": "2025-10-04T10:04:22+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -58,12 +58,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "86f48b9f68189ba971c17008ebcc3e339e480a59"
+                "reference": "6e414507b64f46f4b9ad373e2dc86c68cecf1233"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/86f48b9f68189ba971c17008ebcc3e339e480a59",
-                "reference": "86f48b9f68189ba971c17008ebcc3e339e480a59",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/6e414507b64f46f4b9ad373e2dc86c68cecf1233",
+                "reference": "6e414507b64f46f4b9ad373e2dc86c68cecf1233",
                 "shasum": ""
             },
             "require": {
@@ -72,7 +72,7 @@
             "require-dev": {
                 "illuminate/support": "^10.0|^11.0|^12.0",
                 "nesbot/carbon": "^2.67|^3.0",
-                "pestphp/pest": "^2.36|^3.0",
+                "pestphp/pest": "^2.36|^3.0|^4.0",
                 "phpstan/phpstan": "^2.0",
                 "symfony/var-dumper": "^6.2.0|^7.0.0"
             },
@@ -112,20 +112,20 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2025-09-23T14:22:38+00:00"
+            "time": "2025-11-20T16:59:50+00:00"
         },
         {
             "name": "mikejw/elib-base",
-            "version": "v4.0.8",
+            "version": "v4.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/elib-base.git",
-                "reference": "7c8b66955b0407ff14131620915cb798e0b7ef11"
+                "reference": "702fc8e30692ec907f2cf7377b495d5c4c6c73b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/elib-base/zipball/7c8b66955b0407ff14131620915cb798e0b7ef11",
-                "reference": "7c8b66955b0407ff14131620915cb798e0b7ef11",
+                "url": "https://api.github.com/repos/mikejw/elib-base/zipball/702fc8e30692ec907f2cf7377b495d5c4c6c73b1",
+                "reference": "702fc8e30692ec907f2cf7377b495d5c4c6c73b1",
                 "shasum": ""
             },
             "require": {
@@ -159,22 +159,22 @@
             ],
             "support": {
                 "issues": "https://github.com/mikejw/elib-base/issues",
-                "source": "https://github.com/mikejw/elib-base/tree/v4.0.8"
+                "source": "https://github.com/mikejw/elib-base/tree/v4.0.9"
             },
-            "time": "2025-08-03T11:06:27+00:00"
+            "time": "2025-11-14T09:51:21+00:00"
         },
         {
             "name": "mikejw/elib-blog",
-            "version": "v4.0.0",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/elib-blog.git",
-                "reference": "ca16b3e473adb9ebd5089f8994e7c2c72f3d20a8"
+                "reference": "86eee99976dd90c86730c034a14ca72a7594b6f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/elib-blog/zipball/ca16b3e473adb9ebd5089f8994e7c2c72f3d20a8",
-                "reference": "ca16b3e473adb9ebd5089f8994e7c2c72f3d20a8",
+                "url": "https://api.github.com/repos/mikejw/elib-blog/zipball/86eee99976dd90c86730c034a14ca72a7594b6f3",
+                "reference": "86eee99976dd90c86730c034a14ca72a7594b6f3",
                 "shasum": ""
             },
             "require": {
@@ -204,9 +204,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mikejw/elib-blog/issues",
-                "source": "https://github.com/mikejw/elib-blog/tree/v4.0.0"
+                "source": "https://github.com/mikejw/elib-blog/tree/v4.0.1"
             },
-            "time": "2025-05-28T05:02:53+00:00"
+            "time": "2025-11-21T05:39:38+00:00"
         },
         {
             "name": "mikejw/elib-siteinfo",
@@ -285,16 +285,16 @@
         },
         {
             "name": "mikejw/empathy",
-            "version": "v4.2.1",
+            "version": "v4.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/empathy.git",
-                "reference": "1d97202fc37c5f56b7a70c57fba18c6fbe6dad12"
+                "reference": "115184b52cf829af447fe41e353c990b4fdaf33a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/empathy/zipball/1d97202fc37c5f56b7a70c57fba18c6fbe6dad12",
-                "reference": "1d97202fc37c5f56b7a70c57fba18c6fbe6dad12",
+                "url": "https://api.github.com/repos/mikejw/empathy/zipball/115184b52cf829af447fe41e353c990b4fdaf33a",
+                "reference": "115184b52cf829af447fe41e353c990b4fdaf33a",
                 "shasum": ""
             },
             "require": {
@@ -339,9 +339,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mikejw/empathy/issues",
-                "source": "https://github.com/mikejw/empathy/tree/v4.2.1"
+                "source": "https://github.com/mikejw/empathy/tree/v4.2.6"
             },
-            "time": "2025-09-29T09:55:19+00:00"
+            "time": "2025-11-20T07:20:49+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -349,12 +349,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "cd82b5069148dd811ef54b4b92ce1b3aad84209b"
+                "reference": "d817927c928b235f293cc07e0d7c7f0c18a44a66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/cd82b5069148dd811ef54b4b92ce1b3aad84209b",
-                "reference": "cd82b5069148dd811ef54b4b92ce1b3aad84209b",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/d817927c928b235f293cc07e0d7c7f0c18a44a66",
+                "reference": "d817927c928b235f293cc07e0d7c7f0c18a44a66",
                 "shasum": ""
             },
             "require": {
@@ -372,7 +372,7 @@
                 "graylog2/gelf-php": "^1.4.2 || ^2@dev",
                 "guzzlehttp/guzzle": "^7.4",
                 "guzzlehttp/psr7": "^2.2",
-                "mongodb/mongodb": "^1.8",
+                "mongodb/mongodb": "^1.8 || ^2.0",
                 "php-amqplib/php-amqplib": "~2.4 || ^3",
                 "phpspec/prophecy": "^1.15",
                 "phpstan/phpstan": "^1.10",
@@ -443,7 +443,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-03-20T09:26:28+00:00"
+            "time": "2025-10-24T07:28:53+00:00"
         },
         {
             "name": "mustangostang/spyc",
@@ -629,16 +629,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.11.0",
+            "version": "6.12.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "9500c37b70ada2b94f691f527ce11febc0c1998b"
+                "reference": "d1ac35d784bf9f5e61b424901d5a014967f15b12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/9500c37b70ada2b94f691f527ce11febc0c1998b",
-                "reference": "9500c37b70ada2b94f691f527ce11febc0c1998b",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/d1ac35d784bf9f5e61b424901d5a014967f15b12",
+                "reference": "d1ac35d784bf9f5e61b424901d5a014967f15b12",
                 "shasum": ""
             },
             "require": {
@@ -659,7 +659,6 @@
             },
             "suggest": {
                 "decomplexity/SendOauth2": "Adapter for using XOAUTH2 authentication",
-                "ext-imap": "Needed to support advanced email address parsing according to RFC822",
                 "ext-mbstring": "Needed to send email in multibyte encoding charset or decode encoded addresses",
                 "ext-openssl": "Needed for secure SMTP sending and DKIM signing",
                 "greew/oauth2-azure-provider": "Needed for Microsoft Azure XOAUTH2 authentication",
@@ -699,7 +698,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.11.0"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.12.0"
             },
             "funding": [
                 {
@@ -707,7 +706,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-29T16:40:59+00:00"
+            "time": "2025-10-15T16:49:08+00:00"
         },
         {
             "name": "psr/container",
@@ -820,12 +819,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/php-cli-tools.git",
-                "reference": "f12b650d3738e471baed6dd47982d53c5c0ab1c3"
+                "reference": "81098df0e8c66c95e14bbe5073ef3efba6832ebb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/f12b650d3738e471baed6dd47982d53c5c0ab1c3",
-                "reference": "f12b650d3738e471baed6dd47982d53c5c0ab1c3",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/81098df0e8c66c95e14bbe5073ef3efba6832ebb",
+                "reference": "81098df0e8c66c95e14bbe5073ef3efba6832ebb",
                 "shasum": ""
             },
             "require": {
@@ -874,9 +873,9 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-cli/php-cli-tools/issues",
-                "source": "https://github.com/wp-cli/php-cli-tools/tree/v0.12.6"
+                "source": "https://github.com/wp-cli/php-cli-tools/tree/master"
             },
-            "time": "2025-09-11T12:43:04+00:00"
+            "time": "2025-11-11T13:30:55+00:00"
         }
     ],
     "packages-dev": [],
