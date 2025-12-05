@@ -202,9 +202,14 @@ body#user {
 
 :root { --safe-top: env(safe-area-inset-top, 0px); }
 
+body, html, .body-inner {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
 #blog, #about, #admin.preview {
 
-  body .terms {
+  .terms {
     display: block;
   }
 
@@ -213,34 +218,34 @@ body#user {
       padding-top: 0;
     }
 
-    body h1 {
+    h1 {
       font-size: 2.2rem;
     }
-    body .bottom h1 {
+    .bottom h1 {
       font-size: 2rem;
     }
 
-    body .terms {
+    .terms {
       display: flex;
       flex-direction: column;
     }
-    body .terms span:nth-child(2) {
+    .terms span:nth-child(2) {
       margin-top: 0.9rem;
     }
   }
 
-  @media (max-width: 575.98px) {
+  @media (min-width: 575.98px) {
     h1 {
       font-size: 3rem;
     }
   }
-
-  body, html, .body-inner {
-    min-height: 100vh;
-    min-height: 100dvh;
+  @media (min-width: 990px) {
+    h1 {
+      font-size: 4rem;
+    }
   }
 
-  body, .body-inner {
+  &, .body-inner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -395,7 +400,6 @@ body#user {
     font-family: "Archivo Narrow", sans-serif;
     color: map-get($theme-colors, "accent2");
     text-transform: uppercase;
-    font-size: 4rem;
     font-weight: bold;
     line-height: 0.8em;
   }
