@@ -202,12 +202,13 @@ body#user {
 
 :root { --safe-top: env(safe-area-inset-top, 0px); }
 
-body, html, .body-inner {
-  min-height: 100vh;
-  min-height: 100dvh;
-}
 
 #blog, #about, #admin.preview {
+
+  &, .body-inner {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
 
   .terms {
     display: block;
@@ -365,13 +366,10 @@ body, html, .body-inner {
     color: $white !important;
   }
 
-  .content {
-    padding-top: 1.2rem;
-  }
-
   .pagination {
     height: 64px !important;
     margin: 0;
+    padding-top: 1.2rem;
   }
 
   .pagination .page-item a {
@@ -486,12 +484,11 @@ body, html, .body-inner {
   }
 
   .blog-post .content {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
   }
 
   .blog-post {
-    margin-bottom: 60px;
+    margin-top: 60px;
   }
   .blog-post h2 a {
     color: map-get($theme-colors, "dark");
@@ -503,12 +500,16 @@ body, html, .body-inner {
   }
 
   .blog-post-title {
-    margin-bottom: 5px;
+    margin-bottom: 0;
     font-size: 40px;
   }
   .blog-post-meta {
-    margin-bottom: 20px;
+    margin-bottom: 0;
     color: #999;
+  }
+
+  .entry_meta {
+    line-height: 1.7rem;
   }
 
 
