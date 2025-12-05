@@ -58,12 +58,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "6e414507b64f46f4b9ad373e2dc86c68cecf1233"
+                "reference": "29f1806b11fdda42b6023b38450d6974b40b7e1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/6e414507b64f46f4b9ad373e2dc86c68cecf1233",
-                "reference": "6e414507b64f46f4b9ad373e2dc86c68cecf1233",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/29f1806b11fdda42b6023b38450d6974b40b7e1d",
+                "reference": "29f1806b11fdda42b6023b38450d6974b40b7e1d",
                 "shasum": ""
             },
             "require": {
@@ -112,20 +112,20 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2025-11-20T16:59:50+00:00"
+            "time": "2025-11-25T15:20:29+00:00"
         },
         {
             "name": "mikejw/elib-base",
-            "version": "v4.0.9",
+            "version": "v4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/elib-base.git",
-                "reference": "702fc8e30692ec907f2cf7377b495d5c4c6c73b1"
+                "reference": "561e8c25b9b2e341ab5cdffb78650d53d805feb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/elib-base/zipball/702fc8e30692ec907f2cf7377b495d5c4c6c73b1",
-                "reference": "702fc8e30692ec907f2cf7377b495d5c4c6c73b1",
+                "url": "https://api.github.com/repos/mikejw/elib-base/zipball/561e8c25b9b2e341ab5cdffb78650d53d805feb8",
+                "reference": "561e8c25b9b2e341ab5cdffb78650d53d805feb8",
                 "shasum": ""
             },
             "require": {
@@ -152,29 +152,29 @@
                     "email": "mail@mikejw.co.uk"
                 }
             ],
-            "description": "Base component library for the Empathy PHP Framework",
+            "description": "ELib Base",
             "homepage": "https://empathy.sh",
             "keywords": [
                 "lib"
             ],
             "support": {
                 "issues": "https://github.com/mikejw/elib-base/issues",
-                "source": "https://github.com/mikejw/elib-base/tree/v4.0.9"
+                "source": "https://github.com/mikejw/elib-base/tree/v4.1.0"
             },
-            "time": "2025-11-14T09:51:21+00:00"
+            "time": "2025-11-29T09:01:12+00:00"
         },
         {
             "name": "mikejw/elib-blog",
-            "version": "v4.0.1",
+            "version": "v4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/elib-blog.git",
-                "reference": "86eee99976dd90c86730c034a14ca72a7594b6f3"
+                "reference": "4b225072efd80633b88230003f08f89e7a85f90b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/elib-blog/zipball/86eee99976dd90c86730c034a14ca72a7594b6f3",
-                "reference": "86eee99976dd90c86730c034a14ca72a7594b6f3",
+                "url": "https://api.github.com/repos/mikejw/elib-blog/zipball/4b225072efd80633b88230003f08f89e7a85f90b",
+                "reference": "4b225072efd80633b88230003f08f89e7a85f90b",
                 "shasum": ""
             },
             "require": {
@@ -197,29 +197,29 @@
                     "email": "mail@mikejw.co.uk"
                 }
             ],
-            "description": "Blogginglibrary for Empathy PHP Framework",
+            "description": "ELib Blog",
             "homepage": "https://empathy.sh",
             "keywords": [
                 "lib"
             ],
             "support": {
                 "issues": "https://github.com/mikejw/elib-blog/issues",
-                "source": "https://github.com/mikejw/elib-blog/tree/v4.0.1"
+                "source": "https://github.com/mikejw/elib-blog/tree/v4.1.0"
             },
-            "time": "2025-11-21T05:39:38+00:00"
+            "time": "2025-11-29T09:33:28+00:00"
         },
         {
             "name": "mikejw/elib-siteinfo",
-            "version": "v4.0.0",
+            "version": "v4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/elib-siteinfo.git",
-                "reference": "4bd9c9211112e4675f79c1334383d2a3527f5aa1"
+                "reference": "e340b07381e82d3eb852de4c9860af3eb15995c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/elib-siteinfo/zipball/4bd9c9211112e4675f79c1334383d2a3527f5aa1",
-                "reference": "4bd9c9211112e4675f79c1334383d2a3527f5aa1",
+                "url": "https://api.github.com/repos/mikejw/elib-siteinfo/zipball/e340b07381e82d3eb852de4c9860af3eb15995c7",
+                "reference": "e340b07381e82d3eb852de4c9860af3eb15995c7",
                 "shasum": ""
             },
             "require": {
@@ -242,16 +242,16 @@
                     "email": "mail@mikejw.co.uk"
                 }
             ],
-            "description": "Store and retrieve site information and settings",
+            "description": "ELib SiteInfo",
             "homepage": "https://empathy.sh",
             "keywords": [
                 "lib"
             ],
             "support": {
                 "issues": "https://github.com/mikejw/elib-siteinfo/issues",
-                "source": "https://github.com/mikejw/elib-siteinfo/tree/v4.0.0"
+                "source": "https://github.com/mikejw/elib-siteinfo/tree/v4.1.0"
             },
-            "time": "2025-05-28T05:16:48+00:00"
+            "time": "2025-11-29T09:07:34+00:00"
         },
         {
             "name": "mikejw/elibs",
@@ -285,16 +285,16 @@
         },
         {
             "name": "mikejw/empathy",
-            "version": "v4.2.6",
+            "version": "v4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/empathy.git",
-                "reference": "115184b52cf829af447fe41e353c990b4fdaf33a"
+                "reference": "e29b11c818ca8a24e7cb67c3870c92e65cc83f54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/empathy/zipball/115184b52cf829af447fe41e353c990b4fdaf33a",
-                "reference": "115184b52cf829af447fe41e353c990b4fdaf33a",
+                "url": "https://api.github.com/repos/mikejw/empathy/zipball/e29b11c818ca8a24e7cb67c3870c92e65cc83f54",
+                "reference": "e29b11c818ca8a24e7cb67c3870c92e65cc83f54",
                 "shasum": ""
             },
             "require": {
@@ -331,7 +331,7 @@
                     "email": "mail@mikejw.co.uk"
                 }
             ],
-            "description": "Empathy PHP Framework",
+            "description": "Empathy MVC",
             "homepage": "https://empathy.sh",
             "keywords": [
                 "framework",
@@ -339,9 +339,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mikejw/empathy/issues",
-                "source": "https://github.com/mikejw/empathy/tree/v4.2.6"
+                "source": "https://github.com/mikejw/empathy/tree/v4.3.0"
             },
-            "time": "2025-11-20T07:20:49+00:00"
+            "time": "2025-11-29T08:47:24+00:00"
         },
         {
             "name": "monolog/monolog",

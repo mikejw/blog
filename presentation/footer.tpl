@@ -1,12 +1,11 @@
 
 
-
 </section>
 </div><!-- /.container -->
 </div>
 <footer>
 
-    <div class="container-fluid container-md"> 
+    <div class="container-fluid container-md">
         <div class="row">
             <div class="col">
                 <div class="logo d-flex align-items-center">
@@ -19,16 +18,16 @@
                 <div class="separator-w"></div>
                 <div class="d-flex align-items-center justify-content-between align-items-center">
                     <div class="terms">
-                        <span class="mr-4">Copyright © {$smarty.now|date_format:'%Y'} Michael Whiting.</span>
+                        <span class="me-4">Copyright © {$smarty.now|date_format:'%Y'} Michael Whiting.</span>
                         <span>
                             <span>
-                                    <a target="_blank" href="https://twitter.com/mikejw" class="text-secondary">
+                                    <a target="_blank" href="https://twitter.com/mikejw" class="text-accent1">
                                         Twitter&nbsp;&nbsp;<i class="fa-brands fa-twitter"></i>
                                     </a>
                             </span>
                             <div class="separator-h"></div>
                             <span>
-                                    <a target="_blank" href="https://instagram.com/intimacywithmedium" class="text-secondary">
+                                    <a target="_blank" href="https://instagram.com/intimacywithmedium" class="text-accent1">
                                         Instagram&nbsp;&nbsp;<i class="fa-brands fa-instagram"></i>
                                     </a>
                             </span>
@@ -45,7 +44,7 @@
 {/if}
 <script src="http://{$WEB_ROOT}{$PUBLIC_DIR}/vendor/js/main.min.js"></script>
 <script src="http://{$WEB_ROOT}{$PUBLIC_DIR}/js/common.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
 <script src="http://{$WEB_ROOT}{$PUBLIC_DIR}/js/blog.js"></script>
 
 </body>

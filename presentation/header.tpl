@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="theme-color" content="#fafafa" />
+    <meta name="theme-color" content="#f8f9fa" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     {include file="elib://comp_title.tpl"}
     {include file="elib://comp_description.tpl"}
@@ -16,18 +16,17 @@
     {include file="comp_social_markup.tpl"}
 </head>
 
-<body id="{$module}" class="hasnav">
+<body id="{$module}" class="hasnav {if $module eq 'admin' and $class eq 'blog' and $event eq 'preview'}preview{/if}">
 
-  
     <div class="body-inner">
 
       {include file="comp_nav.tpl"}
 
       <div class="top">
-	<div class="container content-outer">
+          <div class="container content-outer">
           {if ($module eq 'store' && $event neq 'product') || $module eq 'home' || $module eq 'user'}
           {include file="comp_header.tpl"}
           {/if}
-	  
+      
           <section class="content">
-	    
+    

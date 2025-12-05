@@ -1,3 +1,4 @@
+
 // from cerebellum project
 
 
@@ -47,7 +48,9 @@ $(document).ready(function () {
     var data_title = $item.data('title');
     filename = filename.replace(/^(l_|mid_|tn_)/g, '');
     //$item.attr('src', src_arr.join('/') + '/mid_' + filename);
-    var $wrap = $('<a data-toggle="lightbox" data-title="' + data_title + '" href="' + src + '"></a>');
+    var $wrap = $(
+      '<a class="d-inline-block" data-toggle="lightbox" data-caption="' + data_title + '" href="' + src + '"></a>'
+    );
     $wrap.append($item);
     $parent.empty();
     $parent.append($wrap);
@@ -59,6 +62,17 @@ $(document).ready(function () {
 
   $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
     event.preventDefault();
+
+    const lightbox = new Lightbox(this, {
+      size: 'fullscreen',       // or 'lg', 'fullscreen', etc.
+      keyboard: true,
+      constrain: false,
+      ratio: false // may not need this for videos (use '16x9')
+    });
+
+    lightbox.show();
+
+    /*
     $(this).ekkoLightbox({
       alwaysShowClose: true,
       showArrows: false,
@@ -80,12 +94,27 @@ $(document).ready(function () {
         });
       }
     });
+     */
   });
+
+  // dismiss
+  document.addEventListener('click', function (e) {
+    const modal = document.querySelector('.lightbox.modal.show');
+
+    if (!modal) return; // no open lightbox modal
+
+    // close if clicking inside modal-content or modal-body
+    if (e.target.closest('.modal-content')) {
+      const bsModal = bootstrap.Modal.getInstance(modal);
+      bsModal.hide();
+    }
+  });
+
 
   if($('#archive').length > 0) {
     archive();
   }
-  
+
   var re = new RegExp(window.location.hostname, "g");
   if (!document.referrer.match(re)) {
     $('.page-link.back').hide();
@@ -99,3 +128,4 @@ $(document).ready(function () {
   }
 
 });
+

@@ -1,8 +1,28 @@
 
-$font-size-base:              0.9rem;
 
+$font-size-base: 0.9rem;
+$white: #fff;
+
+
+$light:      $white;
+$dark:       #080908;
+$primary:    #202123;
+$secondary:  #000;
+$info:       #a88b6a;
+$success:    #a88b6a;
+$warning:    #febe52;
+$danger:     #ec1360;
 $theme-colors: (
-        "primary": #202123,
-        "secondary": #000,
-        "accent1": #33ef39
+        "light":     $light,
+        "dark":      $dark,
+        "primary":   $primary,
+        "secondary": $secondary,
+        "info":      $info,
+        "success":   $success,
+        "warning":   $warning,
+        "danger":    $danger,
+
+        "accent1":   #33ef39,
+        "accent2":   #a9a496,
+        "accent3":   #a9a496
 );

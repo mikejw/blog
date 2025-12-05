@@ -1,33 +1,36 @@
 
+
 <div class="nav-wrapper">
     <div class="nav-outer">
         <div class="nav-container container-fluid container-md">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="http://{$WEB_ROOT}{$PUBLIC_DIR}">
+                <a class="navbar-brand ps-3" href="http://{$WEB_ROOT}{$PUBLIC_DIR}">
                     <img src="http://{$WEB_ROOT}{$PUBLIC_DIR}/img/small_skull.png" width="30" alt="Online Vibes">
                 </a>
-                <ul class="navbar-nav mr-auto d-md-none">
+                <ul class="navbar-nav me-auto d-md-none">
                     <li class="nav-item dropdown text-uppercase">
-                        <a href="http://{$WEB_ROOT}{$PUBLIC_DIR}" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a href="http://{$WEB_ROOT}{$PUBLIC_DIR}" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             {if $vendorRead neq false}
                                 {$vendorRead.name}
+                            {else}
+                                {$BLOG_TITLE}
                             {/if}
                         </a>
-                        <div class="dropdown-menu position-absolute" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             {if $vendorRead neq false}
-                                <a class="dropdown-item {if $module eq 'store'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/store">Storefront</a>
+                            <li><a class="dropdown-item {if $module eq 'store'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/store">Storefront</a></li>
                             {/if}
-                            <a class="dropdown-item {if $module eq 'about'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/about">About {$BLOG_TITLE}</a>
+                            <li><a class="dropdown-item {if $module eq 'about'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/about">About {$BLOG_TITLE}</a></li>
                             {if isset($user_id) and $user_id > 0}
-                                <a class="dropdown-item{if $module eq 'settings'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/settings">Settings</a>
+                                <li><a class="dropdown-item{if $module eq 'settings'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/settings">Settings</a></li>
                             {/if}
                             {if isset($user_is_vendor) and $user_is_vendor}
-                                <a class="dropdown-item{if $module eq 'storeadmin'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/storeadmin">Admin</a>
+                                <li><a class="dropdown-item{if $module eq 'storeadmin'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/storeadmin">Admin</a></li>
                             {/if}
-                        </div>
+                        </ul>
                     </li>
                 </ul>
-                <ul class="navbar-nav mr-auto d-none d-md-flex flex-row">
+                <ul class="navbar-nav me-auto d-none d-md-flex flex-row">
                     <li class="nav-item text-uppercase">
                         <a class="nav-link{if $module eq 'store' || $module eq 'home'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}">
                             {if $vendorRead neq false}
@@ -48,7 +51,7 @@
                         </li>
                     {/if}
                 </ul>
-                <ul class="navbar-nav flex-row">
+                <ul class="navbar-nav flex-row me-2">
                     {*
                     {if $vendorRead neq false and !($class eq 'store' and $event eq 'cart')}
                         <li class="nav-item">
