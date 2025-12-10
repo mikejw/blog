@@ -1,7 +1,7 @@
 
 {if $module eq 'blog' and $event eq 'item'}
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@onlinevibes_" />
+    <meta name="twitter:site" content="@mikejw" />
     <meta name="twitter:title" content="{$blog->heading}" />
 
     <meta name="twitter:description" content="{$blog->body|strip_tags|regex_replace:"~\[blog-image:[^]]+\]~":""|escape|truncate:400}" />
