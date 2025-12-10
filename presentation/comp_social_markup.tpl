@@ -4,9 +4,7 @@
     <meta name="twitter:site" content="@onlinevibes_" />
     <meta name="twitter:title" content="{$blog->heading}" />
 
-
-
-    <meta name="twitter:description" content="{$blog->body|strip_tags|regex_replace:"~\[blog-image:[^]]+\]~":""|truncate:400}" />
+    <meta name="twitter:description" content="{$blog->body|strip_tags|regex_replace:"~\[blog-image:[^]]+\]~":""|escape|truncate:400}" />
     <meta name="twitter:creator" content="@mikejw" />
     {if isset($primary_image)}
         <meta name="twitter:image:src" content="http://{$WEB_ROOT}{$PUBLIC_DIR}/uploads/{$primary_image}" />
@@ -19,8 +17,8 @@
     {if isset($primary_image)}
         <meta property="og:image" content="http://{$WEB_ROOT}{$PUBLIC_DIR}/uploads/{$primary_image}" />
     {/if}
-    <meta property="og:description" content="{$blog->body|strip_tags|truncate:200}" />
-    <meta property="og:site_name" content="Online Vibes" />
+    <meta property="og:description" content="{$blog->body|strip_tags|regex_replace:"~\[blog-image:[^]]+\]~":""|escape|truncate:400}" />
+    <meta property="og:site_name" content="blog.mikejw.co.uk" />
     <meta property="article:published_time" content="{$blog->stamp|sdate:"c"}" />
     {*<meta property="article:modified_time" content="2013-09-16T19:08:47+01:00" />*}
     <meta property="article:section" content="{$sample_category}" />

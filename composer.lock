@@ -214,12 +214,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/elib-siteinfo.git",
-                "reference": "ad6ba02f5312a0b0c3903dbbc4b815d41e95c893"
+                "reference": "0135344ff0b3bc730af60550e8e707983e46a5ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/elib-siteinfo/zipball/ad6ba02f5312a0b0c3903dbbc4b815d41e95c893",
-                "reference": "ad6ba02f5312a0b0c3903dbbc4b815d41e95c893",
+                "url": "https://api.github.com/repos/mikejw/elib-siteinfo/zipball/0135344ff0b3bc730af60550e8e707983e46a5ae",
+                "reference": "0135344ff0b3bc730af60550e8e707983e46a5ae",
                 "shasum": ""
             },
             "require": {
@@ -251,7 +251,7 @@
                 "issues": "https://github.com/mikejw/elib-siteinfo/issues",
                 "source": "https://github.com/mikejw/elib-siteinfo/tree/v4.1.1"
             },
-            "time": "2025-12-10T18:52:20+00:00"
+            "time": "2025-12-10T19:12:52+00:00"
         },
         {
             "name": "mikejw/elibs",
