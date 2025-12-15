@@ -5,7 +5,7 @@
 *}
 
 <div class="logo">
-    <a href="/">
+    <a href="/" class="d-inline-block">
         <img src="http://{$WEB_ROOT}{$PUBLIC_DIR}/img/logo.svg" alt="{$BLOG_TITLE}" class="w-100">
     </a>
     <h2 class="mt-2">{$BLOG_DESCRIPTION}</h2>

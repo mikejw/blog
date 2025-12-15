@@ -401,7 +401,7 @@ body#user {
     }
   }
 
-  h1 {
+  h1, h2 {
     font-family: "Archivo Narrow", sans-serif;
     color: map-get($theme-colors, "accent2");
     text-transform: uppercase;
