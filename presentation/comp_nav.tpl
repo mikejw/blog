@@ -20,7 +20,7 @@
                             {if isset($categories) and count($categories)}
                                 {foreach from=$categories item=c}
                                     <li>
-                                        <a class="dropdown-item {if $c.id eq $blog_category} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/category/{$c.label|lower}/">{$c.label}</a>
+                                        <a class="dropdown-item {if $c.id eq $blog_category and $module neq 'about'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/category/{$c.label|lower}/">{$c.label}</a>
                                     </li>
                                 {/foreach}
                             {/if}
