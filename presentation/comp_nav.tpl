@@ -17,6 +17,14 @@
                             {/if}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            {if isset($categories) and count($categories)}
+                                {foreach from=$categories item=c}
+                                    <li>
+                                        <a class="dropdown-item {if $c.id eq $blog_category} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/category/{$c.label|lower}/">{$c.label}</a>
+                                    </li>
+                                {/foreach}
+                            {/if}
+
                             {if $vendorRead neq false}
                             <li><a class="dropdown-item {if $module eq 'store'} active{/if}" href="http://{$WEB_ROOT}{$PUBLIC_DIR}/store">Storefront</a></li>
                             {/if}
