@@ -169,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/elib-blog.git",
-                "reference": "a11d46dd29e1969591d7f37c3195eaf5f023ea6c"
+                "reference": "532686d3d477aa47d57c16b7a5caa714c7898d57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/elib-blog/zipball/a11d46dd29e1969591d7f37c3195eaf5f023ea6c",
-                "reference": "a11d46dd29e1969591d7f37c3195eaf5f023ea6c",
+                "url": "https://api.github.com/repos/mikejw/elib-blog/zipball/532686d3d477aa47d57c16b7a5caa714c7898d57",
+                "reference": "532686d3d477aa47d57c16b7a5caa714c7898d57",
                 "shasum": ""
             },
             "require": {
@@ -206,7 +206,7 @@
                 "issues": "https://github.com/mikejw/elib-blog/issues",
                 "source": "https://github.com/mikejw/elib-blog/tree/v4.1.3"
             },
-            "time": "2025-12-15T03:24:57+00:00"
+            "time": "2025-12-15T03:38:54+00:00"
         },
         {
             "name": "mikejw/elib-siteinfo",
