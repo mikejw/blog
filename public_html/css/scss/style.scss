@@ -498,6 +498,11 @@ body#user {
   .blog-post {
     margin-top: 60px;
   }
+
+  .blog-post h2 {
+    font-family: "Archivo Narrow", sans-serif;
+  }
+
   .blog-post h2 a {
     color: map-get($theme-colors, "dark");
   }
