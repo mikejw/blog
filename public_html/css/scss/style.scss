@@ -392,6 +392,13 @@ body#user {
     padding: 0 4px;
     color: $white;
     margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  @media (min-width: 575.98px) {
+    .rss a i {
+      margin-top: 0;
+    }
   }
 
   h1 {
@@ -469,6 +476,7 @@ body#user {
   .blog-sidebar .sidebar-module:first-child {
     margin-top: 0;
   }
+
 
   #archive ul {
     margin-left: 1rem;
