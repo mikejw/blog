@@ -203,7 +203,7 @@ body#user {
 :root { --safe-top: env(safe-area-inset-top, 0px); }
 
 
-#blog, #about, #admin.preview {
+#blog:not(.centerpage), #about, #admin.preview {
 
   &, .body-inner {
     min-height: 100vh;
