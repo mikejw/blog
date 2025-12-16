@@ -200,6 +200,11 @@ body#user {
 /* BEGIN ANSIBLE MANAGED BLOCK blog.scss.j2 */
 
 
+span.badge {
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.33);
+}
+
+
 :root { --safe-top: env(safe-area-inset-top, 0px); }
 
 
