@@ -58,12 +58,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "29f1806b11fdda42b6023b38450d6974b40b7e1d"
+                "reference": "f94277ccea1d114886652b2734d7a430a1b0bb1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/29f1806b11fdda42b6023b38450d6974b40b7e1d",
-                "reference": "29f1806b11fdda42b6023b38450d6974b40b7e1d",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/f94277ccea1d114886652b2734d7a430a1b0bb1f",
+                "reference": "f94277ccea1d114886652b2734d7a430a1b0bb1f",
                 "shasum": ""
             },
             "require": {
@@ -112,20 +112,20 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2025-11-25T15:20:29+00:00"
+            "time": "2026-01-16T17:41:00+00:00"
         },
         {
             "name": "mikejw/elib-base",
-            "version": "v4.1.0",
+            "version": "v4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/elib-base.git",
-                "reference": "561e8c25b9b2e341ab5cdffb78650d53d805feb8"
+                "reference": "a8031823856c6d28799b47b681567ddbd5510a5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/elib-base/zipball/561e8c25b9b2e341ab5cdffb78650d53d805feb8",
-                "reference": "561e8c25b9b2e341ab5cdffb78650d53d805feb8",
+                "url": "https://api.github.com/repos/mikejw/elib-base/zipball/a8031823856c6d28799b47b681567ddbd5510a5f",
+                "reference": "a8031823856c6d28799b47b681567ddbd5510a5f",
                 "shasum": ""
             },
             "require": {
@@ -159,22 +159,22 @@
             ],
             "support": {
                 "issues": "https://github.com/mikejw/elib-base/issues",
-                "source": "https://github.com/mikejw/elib-base/tree/v4.1.0"
+                "source": "https://github.com/mikejw/elib-base/tree/v4.1.3"
             },
-            "time": "2025-11-29T09:01:12+00:00"
+            "time": "2026-01-10T07:13:44+00:00"
         },
         {
             "name": "mikejw/elib-blog",
-            "version": "v4.1.3",
+            "version": "v4.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/elib-blog.git",
-                "reference": "532686d3d477aa47d57c16b7a5caa714c7898d57"
+                "reference": "a1899c7e1a3330243e1b631cd3ecb4a49a0f0f73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/elib-blog/zipball/532686d3d477aa47d57c16b7a5caa714c7898d57",
-                "reference": "532686d3d477aa47d57c16b7a5caa714c7898d57",
+                "url": "https://api.github.com/repos/mikejw/elib-blog/zipball/a1899c7e1a3330243e1b631cd3ecb4a49a0f0f73",
+                "reference": "a1899c7e1a3330243e1b631cd3ecb4a49a0f0f73",
                 "shasum": ""
             },
             "require": {
@@ -204,22 +204,22 @@
             ],
             "support": {
                 "issues": "https://github.com/mikejw/elib-blog/issues",
-                "source": "https://github.com/mikejw/elib-blog/tree/v4.1.3"
+                "source": "https://github.com/mikejw/elib-blog/tree/v4.1.4"
             },
-            "time": "2025-12-15T03:38:54+00:00"
+            "time": "2025-12-16T04:07:45+00:00"
         },
         {
             "name": "mikejw/elib-siteinfo",
-            "version": "v4.1.1",
+            "version": "dev-feature/bs5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/elib-siteinfo.git",
-                "reference": "0135344ff0b3bc730af60550e8e707983e46a5ae"
+                "reference": "a33c95b99f62e67bec2523e836e2f5c83150c7d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/elib-siteinfo/zipball/0135344ff0b3bc730af60550e8e707983e46a5ae",
-                "reference": "0135344ff0b3bc730af60550e8e707983e46a5ae",
+                "url": "https://api.github.com/repos/mikejw/elib-siteinfo/zipball/a33c95b99f62e67bec2523e836e2f5c83150c7d0",
+                "reference": "a33c95b99f62e67bec2523e836e2f5c83150c7d0",
                 "shasum": ""
             },
             "require": {
@@ -227,6 +227,11 @@
                 "mikejw/elib-base": "^4"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-feature/bs5": "4.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Empathy": "src/"
@@ -249,9 +254,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mikejw/elib-siteinfo/issues",
-                "source": "https://github.com/mikejw/elib-siteinfo/tree/v4.1.1"
+                "source": "https://github.com/mikejw/elib-siteinfo/tree/feature/bs5"
             },
-            "time": "2025-12-10T19:12:52+00:00"
+            "time": "2025-11-28T08:56:30+00:00"
         },
         {
             "name": "mikejw/elibs",
@@ -285,16 +290,16 @@
         },
         {
             "name": "mikejw/empathy",
-            "version": "v4.3.1",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/empathy.git",
-                "reference": "41124ae03ba990053c828ec4755d834416d9e701"
+                "reference": "d7ab75d90c40e8a373e9bc1c9f2e3e04a62b7094"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/empathy/zipball/41124ae03ba990053c828ec4755d834416d9e701",
-                "reference": "41124ae03ba990053c828ec4755d834416d9e701",
+                "url": "https://api.github.com/repos/mikejw/empathy/zipball/d7ab75d90c40e8a373e9bc1c9f2e3e04a62b7094",
+                "reference": "d7ab75d90c40e8a373e9bc1c9f2e3e04a62b7094",
                 "shasum": ""
             },
             "require": {
@@ -303,7 +308,7 @@
                 "mustangostang/spyc": "0.6.3",
                 "php": ">=8.4.0",
                 "php-di/php-di": "^7.0",
-                "wp-cli/php-cli-tools": "dev-master"
+                "wp-cli/php-cli-tools": "dev-main"
             },
             "require-dev": {
                 "mockery/mockery": "^1.3.0",
@@ -339,9 +344,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mikejw/empathy/issues",
-                "source": "https://github.com/mikejw/empathy/tree/v4.3.1"
+                "source": "https://github.com/mikejw/empathy/tree/v4.3.3"
             },
-            "time": "2025-12-12T12:45:05+00:00"
+            "time": "2026-01-19T17:35:17+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -349,12 +354,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "d817927c928b235f293cc07e0d7c7f0c18a44a66"
+                "reference": "37308608e599f34a1a4845b16440047ec98a172a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/d817927c928b235f293cc07e0d7c7f0c18a44a66",
-                "reference": "d817927c928b235f293cc07e0d7c7f0c18a44a66",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/37308608e599f34a1a4845b16440047ec98a172a",
+                "reference": "37308608e599f34a1a4845b16440047ec98a172a",
                 "shasum": ""
             },
             "require": {
@@ -431,7 +436,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.x"
+                "source": "https://github.com/Seldaek/monolog/tree/2.11.0"
             },
             "funding": [
                 {
@@ -443,7 +448,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-10-24T07:28:53+00:00"
+            "time": "2026-01-01T13:05:00+00:00"
         },
         {
             "name": "mustangostang/spyc",
@@ -815,16 +820,16 @@
         },
         {
             "name": "wp-cli/php-cli-tools",
-            "version": "dev-master",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/php-cli-tools.git",
-                "reference": "68a82ac4f5642acc10c36e4ed1af80d9f6f7eedf"
+                "reference": "833f9318a560b3b8d18e4b3230dd2d6894b016ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/68a82ac4f5642acc10c36e4ed1af80d9f6f7eedf",
-                "reference": "68a82ac4f5642acc10c36e4ed1af80d9f6f7eedf",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/833f9318a560b3b8d18e4b3230dd2d6894b016ad",
+                "reference": "833f9318a560b3b8d18e4b3230dd2d6894b016ad",
                 "shasum": ""
             },
             "require": {
@@ -838,7 +843,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.12.x-dev"
+                    "dev-main": "0.12.x-dev"
                 }
             },
             "autoload": {
@@ -873,9 +878,9 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-cli/php-cli-tools/issues",
-                "source": "https://github.com/wp-cli/php-cli-tools/tree/master"
+                "source": "https://github.com/wp-cli/php-cli-tools/tree/main"
             },
-            "time": "2025-12-12T16:09:29+00:00"
+            "time": "2026-01-11T10:51:45+00:00"
         }
     ],
     "packages-dev": [],
