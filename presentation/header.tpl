@@ -29,4 +29,18 @@
           {/if}
       
           <section class="content">
+              <div  style="min-height: 60px; max-width: 500px; margin: 3rem auto 0 0;">
+                <div id="aiem-banner"></div>
+              </div>
+
+              <script src="https://cms.ai-em.net/banner/index.php"></script>
+              <script>
+                {literal}
+                window.addEventListener('load', function () {
+                  if (window.renderAiEmBanner) {
+                    window.renderAiEmBanner(document.getElementById('aiem-banner'));
+                  }
+                });
+                {/literal}
+              </script>
     
