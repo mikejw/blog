@@ -8,7 +8,7 @@
     "packages": [
         {
             "name": "gabordemooij/redbean",
-            "version": "dev-master",
+            "version": "v5.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gabordemooij/redbean.git",
@@ -23,7 +23,6 @@
             "require": {
                 "php": ">=5.3.4"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -51,7 +50,7 @@
             ],
             "support": {
                 "issues": "https://github.com/gabordemooij/redbean/issues",
-                "source": "https://github.com/gabordemooij/redbean/tree/master"
+                "source": "https://github.com/gabordemooij/redbean/tree/v5.7.6"
             },
             "time": "2026-04-30T15:47:40+00:00"
         },
@@ -170,16 +169,16 @@
         },
         {
             "name": "mikejw/elib-blog",
-            "version": "v4.1.6",
+            "version": "v4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/elib-blog.git",
-                "reference": "9b7cd195168ff81636dfdafe66c4faea2bd019bb"
+                "reference": "fcecf978a725f9c98ac52998b77c574f339dbdc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/elib-blog/zipball/9b7cd195168ff81636dfdafe66c4faea2bd019bb",
-                "reference": "9b7cd195168ff81636dfdafe66c4faea2bd019bb",
+                "url": "https://api.github.com/repos/mikejw/elib-blog/zipball/fcecf978a725f9c98ac52998b77c574f339dbdc5",
+                "reference": "fcecf978a725f9c98ac52998b77c574f339dbdc5",
                 "shasum": ""
             },
             "require": {
@@ -209,34 +208,29 @@
             ],
             "support": {
                 "issues": "https://github.com/mikejw/elib-blog/issues",
-                "source": "https://github.com/mikejw/elib-blog/tree/v4.1.6"
+                "source": "https://github.com/mikejw/elib-blog/tree/v4.1.7"
             },
-            "time": "2026-03-31T16:42:10+00:00"
+            "time": "2026-05-02T18:04:15+00:00"
         },
         {
             "name": "mikejw/elib-siteinfo",
-            "version": "dev-feature/bs5",
+            "version": "v4.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikejw/elib-siteinfo.git",
-                "reference": "a33c95b99f62e67bec2523e836e2f5c83150c7d0"
+                "reference": "8cc2ad9e55ed4ef742b22684d11a4728276e7968"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikejw/elib-siteinfo/zipball/a33c95b99f62e67bec2523e836e2f5c83150c7d0",
-                "reference": "a33c95b99f62e67bec2523e836e2f5c83150c7d0",
+                "url": "https://api.github.com/repos/mikejw/elib-siteinfo/zipball/8cc2ad9e55ed4ef742b22684d11a4728276e7968",
+                "reference": "8cc2ad9e55ed4ef742b22684d11a4728276e7968",
                 "shasum": ""
             },
             "require": {
-                "gabordemooij/redbean": "dev-master",
+                "gabordemooij/redbean": "~5.7.5",
                 "mikejw/elib-base": "^4"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-feature/bs5": "4.x-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "Empathy": "src/"
@@ -259,9 +253,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mikejw/elib-siteinfo/issues",
-                "source": "https://github.com/mikejw/elib-siteinfo/tree/feature/bs5"
+                "source": "https://github.com/mikejw/elib-siteinfo/tree/v4.1.4"
             },
-            "time": "2025-11-28T08:56:30+00:00"
+            "time": "2026-03-31T16:45:18+00:00"
         },
         {
             "name": "mikejw/elibs",
@@ -902,5 +896,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
