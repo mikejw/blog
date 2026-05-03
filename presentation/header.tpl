@@ -29,9 +29,12 @@
           {/if}
       
           <section class="content">
-              <div  style="min-height: 60px; max-width: 500px; margin: 3rem auto 0 0;">
-                <div id="aiem-banner"></div>
+              <div class="row">
+                  <div  class="col-sm-7" style="min-height: 90px; margin: 2.5rem 0 0 0;">
+                      <div id="aiem-banner"></div>
+                  </div>
               </div>
+
 
               <script src="https://cms.ai-em.net/banner/index.php"></script>
               <script>
