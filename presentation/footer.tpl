@@ -27,7 +27,7 @@
                             </span>
                             <div class="separator-h"></div>
                             <span>
-                                    <a target="_blank" href="https://instagram.com/intimacywithmedium" class="text-accent1">
+                                    <a target="_blank" href="https://instagram.com/mikejwhiting" class="text-accent1">
                                         Instagram&nbsp;&nbsp;<i class="fa-brands fa-instagram"></i>
                                     </a>
                             </span>
