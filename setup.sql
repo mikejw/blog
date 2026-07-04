@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS project;
-CREATE DATABASE project;
-USE project;
+DROP DATABASE IF EXISTS blog;
+CREATE DATABASE blog;
+USE blog;
 
 DROP TABLE IF EXISTS user,
     contact,

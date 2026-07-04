@@ -11,10 +11,10 @@ boot_options:
   debug_mode: false
   dynamic_module: false
   dynamic_module_default_uri: false
-db_server: db
+db_server: mysql
 db_user: root
 db_pass: example
-db_name: project
+db_name: blog
 plugins:
   - 
     name: ELibs

@@ -1,5 +1,4 @@
-use project;
-
+use blog;
 
 insert into user values (
     NULL,
